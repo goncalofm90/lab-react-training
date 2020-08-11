@@ -6,21 +6,25 @@ import BoxColor from './components/BoxColor';
 import CreditCard from './components/CreditCard';
 import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
+import LikeButton from './components/LikeButton';
+import ClickablePicture from './components/ClickablePicture';
+import Dice from './components/Dice';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
+      <LikeButton />
       <IdCard
-        lastName="Toze"
-        firstName="João"
+        lastName="Mr. Sniffles"
+        firstName="'Cena's Dog' "
         gender="Male"
         height="1.78"
         birthdate={new Date('1992-07-14')}
-        picture="https://tinyurl.com/y6jaazvz"
+        picture="https://tinyurl.com/yxjuxwdz"
       />
       <div className="greetings">
-        <Greetings lang="de">Tozé</Greetings>
+        <Greetings lang="de">Sniffles</Greetings>
       </div>
       <div className="random">
         <h1>Random</h1>
@@ -94,6 +98,13 @@ function App() {
             licensePlate: 'BE33ERZ',
           }}
         />
+        <div className="clickpicture">
+          <h1>CLick me pls</h1>
+          <ClickablePicture />
+        </div>
+        <div className="dicepicture">
+          <Dice />
+        </div>
       </div>
     </div>
   );
