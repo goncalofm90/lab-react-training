@@ -1,0 +1,19 @@
+body {
+  margin: 0 auto;
+  height: 100%;
+}
+
+.IdCard {
+  border: 2px solid black;
+  width: 30%;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  padding: 1%;
+}
+
+.IdCard img {
+  width: 30%;
+  height: 30%;
+  padding: 1%;
+}
