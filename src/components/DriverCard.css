@@ -11,12 +11,13 @@
 
 .driver-img > img {
   width: 110px;
+  border: 3px solid white;
   height: 110px;
   border-radius: 70px;
 }
 
 .driver-data {
-  text-align: left;
+  text-align: center;
   margin: 0 20px;
 }
 
