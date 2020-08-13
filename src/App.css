@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.form-group {
+  border: 2px solid black;
+  padding: 1em;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.formavatar {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 100%;
+}

@@ -8,6 +8,8 @@ import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
 import LikeButton from './components/LikeButton';
 import ClickablePicture from './components/ClickablePicture';
+// import NumbersTable from './components/NumbersTable';
+import SignupPage from './components/SignupPage';
 import Dice from './components/Dice';
 import './App.css';
 
@@ -99,13 +101,17 @@ function App() {
           }}
         />
         <div className="clickpicture">
-          <h1>CLick me pls</h1>
+          <h1>Click the image below:</h1>
           <ClickablePicture />
         </div>
         <div className="dicepicture">
           <Dice />
         </div>
+        {/* <div>
+          <NumbersTable limit={12} />
+        </div> */}
       </div>
+      <SignupPage />
     </div>
   );
 }
