@@ -101,7 +101,7 @@ function App() {
           }}
         />
         <div className="clickpicture">
-          <h1>Click the image below:</h1>
+          <h1>Click me</h1>
           <ClickablePicture />
         </div>
         <div className="dicepicture">

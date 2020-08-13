@@ -31,7 +31,7 @@ class Dice extends Component {
   render() {
     return (
       <div>
-        <h1>It 10: Dice</h1>
+        <h1>Roll the Dice!</h1>
         <img src={this.state.image} alt="dice" onClick={this.handleDiceClick} />
       </div>
     );

@@ -75,7 +75,7 @@ class SignupPage extends Component {
           <br></br>
           {this.state.email.includes('@')
             ? 'Your e-mail address is correct'
-            : 'Your email address is incorrect'}
+            : 'Your email address format is incorrect!'}
         </p>
         <button class="btn btn-info">Submit</button>
       </div>
